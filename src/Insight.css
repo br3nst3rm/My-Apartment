@@ -1,0 +1,109 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.insightDiv {
+  width: 100%;
+  padding-inline: 7%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding-block: 50px;
+  background-color: rgba(244, 244, 244, 1);
+  margin-bottom: 30px;
+}
+
+.insightHead {
+  width: 200px;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.insightReview {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.insightOne,
+.insightTwo,
+.insightThree {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: rgba(28, 28, 28, 1);
+}
+
+.insight1scr,
+.insight2scr,
+.insight3scr {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.insight1r,
+.insight2r,
+.insight3r {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 600px) {
+  .insightDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 2%;
+    padding-block: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .insightHead {
+    width: max-content;
+    margin-bottom: 30px;
+  }
+
+  .insightHead p {
+    font-size: 23px;
+    width: 270px;
+    text-align: center;
+  }
+
+  .insightReview {
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .insightOne,
+  .insightTwo,
+  .insightThree {
+    height: 170px;
+    width: 310px;
+    margin-bottom: 20px;
+  }
+
+  .insight1scr,
+  .insight2scr,
+  .insight3scr {
+    font-size: 43px;
+  }
+
+  .insight1r,
+  .insight2r,
+  .insight3r {
+    font-size: 14px;
+  }
+}

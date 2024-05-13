@@ -1,0 +1,149 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding-inline: 10%;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.leftOption {
+  width: max-content;
+  margin-right: 180px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.midOption {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+.midOption p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rightOption {
+  display: flex;
+  width: 20%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signInDiv {
+  display: flex;
+  width: max-content;
+  margin-right: 5px;
+}
+
+.signInDiv p {
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: rgb(212, 39, 39);
+}
+
+.fa-user {
+  font-size: 11px;
+  align-self: center;
+  color: rgb(212, 39, 39);
+}
+
+.fa-bars {
+  display: none;
+}
+
+.postListingDiv {
+  display: flex;
+  background-color: rgb(212, 39, 39);
+  padding: 10px 24px;
+  border-radius: 20px;
+}
+
+.postListingDiv p {
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: white;
+}
+
+.fa-plus {
+  font-size: 11px;
+  align-self: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding-inline: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .midOption {
+    display: none;
+  }
+
+  .rightOption {
+    width: max-content;
+    align-items: center;
+  }
+
+  .signInDiv {
+    margin-right: 12px;
+  }
+
+  .signInDiv p {
+    display: none;
+  }
+
+  .fa-user {
+    display: none;
+  }
+
+  .fa-bars {
+    display: flex;
+    font-size: 25px;
+    align-self: center;
+  }
+
+  .postListingDiv {
+    display: flex;
+    width: max-content;
+    background-color: rgb(212, 39, 39);
+    padding: 9px 14px;
+    border-radius: 20px;
+  }
+
+  .postListingDiv p {
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+  }
+
+  .fa-plus {
+    font-size: 11px;
+    align-self: center;
+    color: white;
+  }
+}
